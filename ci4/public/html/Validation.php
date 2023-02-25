@@ -81,27 +81,27 @@ function test_input($data) {
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
   Name:
   <br><br>
-  <input type="text" name="name" value="<?php echo $name;?>">
+  <input type="text" name="NAME" value="<?php echo $name;?>">
   <span class="error">* <?php echo $nameErr;?></span>
   <br><br>
   E-mail:
   <br><br>
-  <input type="text" name="email" value="<?php echo $email;?>">
+  <input type="text" name="EMAIL" value="<?php echo $email;?>">
   <span class="error">* <?php echo $emailErr;?></span>
   <br><br>
   Website:
   <br><br>
-  <input type="text" name="website" value="<?php echo $website;?>">
+  <input type="text" name="WEBSITE" value="<?php echo $website;?>">
   <span class="error"><?php echo $websiteErr;?></span>
   <br><br>
   Comment:
   <br><br>
-  <textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea>
+  <textarea name="COMMENT" rows="5" cols="40"><?php echo $comment;?></textarea>
   <br><br>
   Gender:
-  <input type="radio" name="gender" <?php if (isset($gender) && $gender=="female") echo "checked";?> value="female">Female
-  <input type="radio" name="gender" <?php if (isset($gender) && $gender=="male") echo "checked";?> value="male">Male
-  <input type="radio" name="gender" <?php if (isset($gender) && $gender=="other") echo "checked";?> value="other">Other  
+  <input type="radio" name="GENDER" <?php if (isset($gender) && $gender=="female") echo "checked";?> value="female">Female
+  <input type="radio" name="GENDER" <?php if (isset($gender) && $gender=="male") echo "checked";?> value="male">Male
+  <input type="radio" name="GENDER" <?php if (isset($gender) && $gender=="other") echo "checked";?> value="other">Other  
   <span class="error">* <?php echo $genderErr;?></span>
   <br><br>
   <input type="submit" name="submit" value="Submit">  
@@ -134,7 +134,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 	die("Connection failed: " . $conn->connect_error);
 	}
 	
-	$sql = "INSERT INTO fdemberga_masterclass (firstname, email, website, comment, gender)
+	$sql = "INSERT INTO fdemberga_masterclass (NAME, EMAIL, WEBSITE, COMMENT, GENDER)
 	VALUES ('$name', '$email', '$website','$comment', '$gender')";
 	
 	if ($conn->query($sql) === TRUE) {
