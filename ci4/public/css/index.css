@@ -71,7 +71,7 @@ body {
     text-decoration: none;
     cursor: pointer;
 }
-  div#navbar{
+div#navbar{
     position: fixed;
     top: 0;
     height: 16%;
