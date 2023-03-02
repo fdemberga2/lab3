@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 class Pages extends BaseController
 {
-    public function indexnews()
+    public function index()
     {
         return view('welcome_message');
     }
