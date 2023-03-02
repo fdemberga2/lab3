@@ -8,7 +8,7 @@ class Pages extends BaseController
     {
         return view('welcome_message');
     }
-    public function view($page = 'indexBerry')
+    public function view($page = 'index')
     {
         // ...
     }
