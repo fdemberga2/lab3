@@ -1,7 +1,6 @@
 <!doctype html>
 <html>
 <head>
-<link href="css/index.css" rel="stylesheet">
 <style>
 div#navbar{
     position: fixed;
