@@ -40,3 +40,34 @@ nav ul li a {
   color: rgb(255, 255, 255);
   text-transform: uppercase;
 }
+/* CONTENTS*/
+div#contents{
+    height: auto;
+    background-color: rgba(0,0,0,.5); 
+    position: relative;
+    z-index: 2;
+
+}
+table {
+  border-collapse: collapse;
+  text-align: center;
+  padding: 15px;
+}
+th {
+  background-color: black;
+  color: hsl(163.4,58.4%,66.1%);
+  font-size: 25px;
+  border-bottom: 1px solid white;
+  color: white;
+  padding: 20px;
+}
+
+td {
+  border-bottom: 1px solid white;
+  color: white;
+  padding: 20px;
+}
+
+tr:hover {
+  color: #9D1AFB;
+}
