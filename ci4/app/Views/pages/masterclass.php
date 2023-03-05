@@ -5,7 +5,10 @@
   <link rel="stylesheet" type="text/css" href = "css/Validation.css">
 </head>
 <body>
-
+  <div class="BG"></div>
+    <div class="Padds">
+    </div>
+  </div>
 <center>
 <br><br><br><br><br><br><br>
 <div id="contents">
