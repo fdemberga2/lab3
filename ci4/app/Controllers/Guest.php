@@ -8,7 +8,7 @@ class Guest extends BaseController
         $model = model(GuestModel::class);
 		$data = [
             'guest'  => $model->getGuest(),
-            'title' => 'Masterclass',
+            'title' => 'This is My Masterclass',
         ];
         return view('templates/header', $data)
              . view('pages/Masterclass')
@@ -53,7 +53,7 @@ class Guest extends BaseController
         ]);
 
         return view('templates/header', ['title' => 'Join The Masterclass'])
-            . view('pages/Masterclass')
+            . view('pages/masterclass')
             . view('templates/footer');
     }
 }
