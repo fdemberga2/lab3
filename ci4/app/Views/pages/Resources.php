@@ -77,7 +77,7 @@
   </div>
   <div class="profile-card-body">
     <p>Ayala Corporation (Image) <a href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fcms.ayala.com.ph%2Fwp-content%2Fuploads%2F2020%2F07%2FLanding-page_inside-photo-skyline-1.jpg&imgrefurl=https%3A%2F%2Fayala.com%2Finvestors%2Fportfolio&tbnid=wIRJ4PwgGtBulM&vet=12ahUKEwjeprr8p7n8AhUUg5QKHaMXC7oQMygGegUIARDDAQ..i&docid=U4GITSzkI4XVrM&w=2000&h=1242&q=ayala%20background&ved=2ahUKEwjeprr8p7n8AhUUg5QKHaMXC7oQMygGegUIARDDAQ">Link</a><br>
-      Jamzy Marie Cuyugan (Nav Bar Source Code)<br>
+      Jamzy Marie Cuyugan (Nav Bar Reference, Forms View, Troubleshooting reference go to)<br>
       W3 Schools HTML Course <br>
       W3 Schools CSS Course <br> 
     </div>
