@@ -11,7 +11,7 @@ class Guest extends BaseController
             'title' => 'Masterclass',
         ];
         return view('templates/header', $data)
-             . view('pages/masterclass')
+             . view('masterclass')
              . view('templates/footer');
     }
     public function create()
@@ -22,7 +22,7 @@ class Guest extends BaseController
         if (! $this->request->is('post')) {
             // The form is not submitted, so returns the form.
             return view('templates/header', ['title' => 'Join The Masterclass'])
-                . view('pages/validation')
+                . view('Validation')
                 . view('templates/footer');
         }
 
@@ -38,7 +38,7 @@ class Guest extends BaseController
         ])) {
             // The validation fails, so returns the form.
             return view('templates/header', ['title' => 'Join The Masterclass'])
-                . view('pages/validation')
+                . view('Validation')
                 . view('templates/footer');
         }
 
@@ -53,7 +53,7 @@ class Guest extends BaseController
         ]);
 
         return view('templates/header', ['title' => 'Join The Masterclass'])
-            . view('pages/masterclass')
+            . view('masterclass')
             . view('templates/footer');
     }
 }

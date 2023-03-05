@@ -14,7 +14,7 @@
     <div class="profile-card-body">
         <p>Hi There! I am Felix. A company CEO at 19 and a school President at the same time. Makes 7 digits a month, and 10 in a year(Gacha Currency). Collector of NFT waifus</div>
     <div class="profile-card-footer">
-        <a href="validation" target="_blank" rel="noopener noreference" >Send Message need kausap</a>
+        <a href="Validation" target="_blank" rel="noopener noreference" >Send Message need kausap</a>
     </div>
 </div>
 </div>
