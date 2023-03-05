@@ -1,9 +1,8 @@
 <<!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
 	<title> [ My Masterclass ] </title>
-  <link href="css/Validation.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href = "css/Validation.css">
 </head>
 <body>
 
