@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>  
 <html>
 <head>
-<?php echo link_tag('css/Validation.css'); ?>
+<link href="css/Validation.css" rel="stylesheet">
 </head> 
 <body>
   <div class="BG"></div>

@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title> [ My Masterclass ] </title>
-	<link rel="stylesheet" type="text/css" href = "css/validation.css">
+  <link href="css/Validation.css" rel="stylesheet">
 </head>
 <body>
 
@@ -48,7 +48,7 @@ $result = $conn->query($query);
     }?>
   </table>
   </div>
-  <p style="font-size: 20px; font-family: joane_stencilregular; color: white;" id="explore"><a href="validation" id="explore">Return to Registration!</a></p>
+  <p style="font-size: 20px; font-family: joane_stencilregular; color: white;" id="explore"><a href="Validation" id="explore">Return to Registration!</a></p>
 </center>
 </body>
 </html>
