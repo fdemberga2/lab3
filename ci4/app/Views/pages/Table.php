@@ -27,7 +27,7 @@ function fetch_data($db, $tableName, $columns){
  }elseif (empty($columns) || !is_array($columns)) {
   $msg="columns Name must be defined in an indexed array";
  }elseif(empty($tableName)){
-   $msg= "Table Stars is empty";
+   $msg= "Table Of Students is empty";
 }else{
 
 $columnName = implode(", ", $columns);
